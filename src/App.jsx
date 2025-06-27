@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Main from './components/MainPage/Main';
 import Salary from './components/SalaryPage/Salary';
-import Login from './components/LoginPage/Login';
+import Login from './components/LoginPage/Login/Login';
 import Page4 from './components/UserPage/Reclutador/Page4';
 import SignUp from './components/SignUpPage/SignUp';
 import PerfilPro from './components/PerfilProf/PerfilPro';
