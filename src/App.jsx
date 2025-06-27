@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Main from './components/MainPage/Main';
 import Salary from './components/SalaryPage/Salary';
 import Login from './components/LoginPage/Login';
-import Page4 from './components/Page-4/Page4';
+import Page4 from './components/UserPage/Reclutador/Page4';
 import SignUp from './components/SignUpPage/SignUp';
 import PerfilPro from './components/PerfilProf/PerfilPro';
 import Articulo1 from './components/PerfilProf/Articulos/Articulo1/Articulo1';
@@ -16,7 +16,7 @@ function App() {
         <Route path="/" element={<Main />} />
         <Route path="/Salary" element={<Salary />} />
         <Route path="/Login" element={<Login />} />
-        <Route path="/page4" element={<Page4 />} />
+        <Route path="/Page4" element={<Page4 />} />
         <Route path="/Articulo1" element={<Articulo1 />} />
         <Route path="/Articulo2" element={<Articulo2 />} />
         <Route path="/Articulo3" element={<Articulo3 />} />
