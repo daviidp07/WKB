@@ -16,11 +16,11 @@ function Header() {
       </div>
       <div className="user-menu">
         <div className="dropdown">
-          <span className="dropdown-btn">Reclutadores</span>
+          <span className="dropdown-btn">Inicio</span>
           <div className="dropdown-menu">
-            <a href="#">a1</a>
-            <a href="#">a2</a>
-            <a href="#">a3</a>
+            <a href="#">Aspirante</a>
+            <a href="#">Reclutador</a>
+            <a href="#">Administrador</a>
           </div>
         </div>
         <Link to="/Login" className="btn-link">Iniciar Sesión</Link>
