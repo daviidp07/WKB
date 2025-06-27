@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Page4.css';
 
-const Page4 = () => {
+const UserPage = () => {
   const navigate = useNavigate();
 
   const handleExit = () => {
@@ -168,4 +168,4 @@ const Page4 = () => {
   );
 };
 
-export default Page4;
+export default UserPage;
