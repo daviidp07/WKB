@@ -43,10 +43,5 @@ button {
   font-weight: 500;
   font-family: inherit;
   cursor: pointer;
-}
-
-@media (prefers-color-scheme: light) {
-  a:hover {
-    color: #747bff;
-  }
+  color: #535bf2;
 }

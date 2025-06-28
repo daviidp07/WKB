@@ -7,7 +7,7 @@ function Login() {
 
   const hSubmit = (e) => {
     e.preventDefault();
-    navigate('/page4');
+    navigate('/reclutador');
   };
 
   const Exit = () => {

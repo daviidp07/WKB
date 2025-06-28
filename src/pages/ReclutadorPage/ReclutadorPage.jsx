@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Page4.css';
+import './ReclutadorPage.css';
 
-const UserPage = () => {
+const ReclutadorPage = () => {
   const navigate = useNavigate();
 
   const handleExit = () => {
@@ -168,4 +168,4 @@ const UserPage = () => {
   );
 };
 
-export default UserPage;
+export default ReclutadorPage;
