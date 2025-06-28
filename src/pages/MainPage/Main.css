@@ -1,0 +1,19 @@
+.header {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    gap: 100px;
+}
+
+.menu_list {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px;
+}
+
+.menu_user {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px;
+}

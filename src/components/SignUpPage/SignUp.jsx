@@ -7,7 +7,7 @@ function SignUpPage() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    navigate('/page4');
+    navigate('/reclutador');
   };
 
   const handleExit = () => {
