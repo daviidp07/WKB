@@ -9,6 +9,7 @@ import Articulo1 from './pages/ProfesionPage/Articulos/Articulo1/Articulo1';
 import Articulo2 from './pages/ProfesionPage/Articulos/Articulo2/Articulo2';
 import Articulo3 from './pages/ProfesionPage/Articulos/Articulo3/Articulo3';
 import AdminPage from './pages/AdminPage/AdminPage';
+import SeccReclutam from './pages/ReclutadorPage/Secciones/Seccion1/SeccReclutam';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/SignUp" element={<SignUp />} />
         <Route path="/PerfilPro" element={<PerfilPro />} />
         <Route path="/administrador" element={<AdminPage />} />  
+        <Route path="/SeccReclutam" element={<SeccReclutam />} />
       </Routes>
     </Router>
   );
