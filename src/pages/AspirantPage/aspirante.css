@@ -1,0 +1,65 @@
+.container{
+    display: flex;
+}
+header{
+    background-color: brown;
+    height: 80px;
+    width: 100%;
+}
+.botones-container{
+    display: flex;
+    padding: 0.5rem;
+    justify-content: flex-start;
+
+}
+.boton{
+    background: #fff;
+    border: 1px solid #2b14ad;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 0.5rem;
+    margin-left: 3%;
+    margin-right: 2%;
+}
+.boton:hover {
+    background: #f5f5f5;
+}
+#sections{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    width: 100%;
+
+}
+.section_1 {
+    background-color: aquamarine;
+    width: 40%;
+    padding: 1rem;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.section_2 {
+    background-color: rgb(48, 182, 30);
+    width: 60%;
+    padding: 1rem;
+    height: 800px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+nav{
+    background-color: chartreuse;
+    height: 50px;
+    padding: 1rem;
+}
+.oferta_1{
+    background-color: blueviolet;
+    margin-top: 1rem;
+}
+.grid{
+    display: grid;
+}
+
+.grid div:hover{
+    border: 1px solid red;
+}
