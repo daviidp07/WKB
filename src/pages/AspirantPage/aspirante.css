@@ -1,65 +1,117 @@
-.container{
+.container {
     display: flex;
 }
-header{
+
+header {
     background-color: brown;
     height: 80px;
     width: 100%;
 }
-.botones-container{
+
+.botones-container {
     display: flex;
     padding: 0.5rem;
-    justify-content: flex-start;
-
+    justify-content: center;
 }
-.boton{
+
+.boton {
     background: #fff;
     border: 1px solid #2b14ad;
     border-radius: 10px;
     cursor: pointer;
     padding: 0.5rem;
-    margin-left: 3%;
-    margin-right: 2%;
+    margin: 0 1%;
 }
+
 .boton:hover {
     background: #f5f5f5;
 }
-#sections{
+
+#sections {
     display: flex;
     gap: 1rem;
     padding: 1rem;
     width: 100%;
-
 }
+
 .section_1 {
-    background-color: aquamarine;
+    background-color: #f0fdf0;
     width: 40%;
     padding: 1rem;
     max-height: 80vh;
     overflow-y: auto;
+    border-radius: 8px;
+    border: 1px solid #ddd;
 }
 
 .section_2 {
-    background-color: rgb(48, 182, 30);
+    background-color: #f8f8f8;
     width: 60%;
     padding: 1rem;
-    height: 800px;
     max-height: 80vh;
     overflow-y: auto;
+    border-radius: 8px;
+    border: 1px solid #ddd;
 }
-nav{
+
+nav {
     background-color: chartreuse;
     height: 50px;
     padding: 1rem;
-}
-.oferta_1{
-    background-color: blueviolet;
-    margin-top: 1rem;
-}
-.grid{
-    display: grid;
+    margin-bottom: 1rem;
+    border-radius: 6px;
 }
 
-.grid div:hover{
-    border: 1px solid red;
+.grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.oferta_1 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: box-shadow 0.3s, transform 0.2s;
+}
+
+.oferta_1:hover {
+    border-color:#2b14ad;
+}
+
+.boton-postular, .boton-guardar {
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.boton-postular {
+    background-color: #2b14ad;
+    color: white;
+}
+
+.boton-postular:hover {
+    background-color: #1f0d7d;
+}
+
+.boton-guardar {
+    background-color: #ddd;
+}
+
+.boton-guardar:hover {
+    background-color: #ccc;
+}
+
+.location::before {
+    content: "📍 ";
+}
+
+.time::before {
+    content: "⏰ ";
 }
