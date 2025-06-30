@@ -10,6 +10,10 @@ import Articulo2 from './pages/ProfesionPage/Articulos/Articulo2/Articulo2';
 import Articulo3 from './pages/ProfesionPage/Articulos/Articulo3/Articulo3';
 import AdminPage from './pages/AdminPage/AdminPage';
 import SeccReclutam from './pages/ReclutadorPage/Secciones/Seccion1/SeccReclutam';
+import SeccConfigura from './pages/ReclutadorPage/Secciones/Seccion2/SeccConfigura';
+import PubVacante from './pages/ReclutadorPage/Secciones/Seccion1/LogPubVacan/PubVacante';
+import EditSecc from './pages/ReclutadorPage/Secciones/Seccion2/EditSecc/EditSecc';
+
 
 function App() {
   return (
@@ -25,7 +29,11 @@ function App() {
         <Route path="/SignUp" element={<SignUp />} />
         <Route path="/PerfilPro" element={<PerfilPro />} />
         <Route path="/administrador" element={<AdminPage />} />  
+        <Route path="/ReclutadorPage" element={<ReclutadorPage />} />
         <Route path="/SeccReclutam" element={<SeccReclutam />} />
+        <Route path="/SeccConfigura" element={<SeccConfigura />} />
+        <Route path="/PubVacante" element={<PubVacante />} />
+        <Route path="/EditSecc" element={<EditSecc />} />
       </Routes>
     </Router>
   );

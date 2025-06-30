@@ -1,8 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './SeccReclutam.css';
 
-function SeccReclutam() {
+const SeccReclutam = () => {
+  const navigate = useNavigate();
+  navigate('/ReclutadorPage');
     return (
     <>
       <header className='Header'>
@@ -16,7 +18,9 @@ function SeccReclutam() {
           <h2><Link to="/">Inicio</Link></h2>
           <h1></h1>
           <button className='PubOferta'>
-            <span>Publicar oferta</span>
+            <span>
+              <Link to="/PubVacante">Publicar oferta</Link>
+            </span>
           </button>
         </div>
 
@@ -25,7 +29,9 @@ function SeccReclutam() {
           <h3>¡Publica ofertas gratis!</h3>
           <p>Ahorra costos y tiempo en tus procesos de selección y consigue el candidato ideal de forma rápida y fácil</p>
           <button className='PubTiOf'>
-            <span>Publicar una oferta</span>
+            <span>
+              <Link to="/PubVacante">Publicar una oferta</Link>
+            </span>
           </button>
         </div>
       </section>
@@ -67,7 +73,7 @@ function SeccReclutam() {
             <h3>Publica tu oferta</h3>
             <p>seran tus 5 minutos de hoy mejor invertidos</p>
           <button>
-            <span>Encontrar candidatos</span>
+            <span><Link to="/PubVacante">Encontrar candidatos</Link></span>
           </button>
         </div>
       </main>
@@ -106,7 +112,9 @@ function SeccReclutam() {
 
     <div className='ButtoObj'>
       <button className='ButtEncon'>
-        <span>Comenzar ahora</span>
+        <span>
+          <Link to="/PubVacante">Comenzar ahora</Link>
+        </span>
       </button>
     </div>
 
